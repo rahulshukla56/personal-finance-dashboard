@@ -52,10 +52,6 @@ sample_data/        Example bank CSV
 | `category_rules` | category → keyword pairs used for auto-categorisation |
 | `budgets` | monthly limit per category |
 
-## Deploy (free)
-
-Push to GitHub, then create an app on [Streamlit Community Cloud](https://streamlit.io/cloud) pointing at `app.py`. Note: SQLite data on Streamlit Cloud is not permanent. For permanent storage, switch the connection to PostgreSQL.
-
 ## Ideas for next steps
 
 - User login so several people can use one deployment
